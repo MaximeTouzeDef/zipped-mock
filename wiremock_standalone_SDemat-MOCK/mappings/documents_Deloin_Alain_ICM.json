@@ -1,0 +1,22 @@
+{
+    "request": {
+        "urlPath":"/documents",
+        "queryParameters": {
+            "nid": {
+                "equalTo": "002"
+            },
+            "typeDocument": {
+                "equalTo": "ICM"
+            }
+        },
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "transformers": ["response-template"],
+        "bodyFileName": "documents_Deloin_Alain_ICM.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

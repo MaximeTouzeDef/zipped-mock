@@ -1,0 +1,11 @@
+{
+    "request": {
+        "url": "/referentiel",
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "transformers": ["response-template"],
+        "bodyFileName": "referentiel.json"
+    }
+}

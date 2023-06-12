@@ -1,0 +1,22 @@
+{
+    "request": {
+        "urlPath":"/documents",
+        "queryParameters": {
+            "nid": {
+                "equalTo": "001"
+            },
+            "typeDocument": {
+                "equalTo": "AVISIMPOSITION"
+            }
+        },
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "transformers": ["response-template"],
+        "bodyFileName": "documents_Haliday_Jonny_AVISIMPOSITION.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

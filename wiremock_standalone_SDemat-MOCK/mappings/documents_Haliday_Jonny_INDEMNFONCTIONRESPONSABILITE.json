@@ -1,0 +1,22 @@
+{
+    "request": {
+        "urlPath":"/documents",
+        "queryParameters": {
+            "nid": {
+                "equalTo": "001"
+            },
+            "typeDocument": {
+                "equalTo": "INDEMNFONCTIONRESPONSABILITE"
+            }
+        },
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "transformers": ["response-template"],
+        "bodyFileName": "documents_Haliday_Jonny_INDEMNFONCTIONRESPONSABILITE.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

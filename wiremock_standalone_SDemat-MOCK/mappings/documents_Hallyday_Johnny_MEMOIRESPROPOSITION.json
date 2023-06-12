@@ -1,0 +1,22 @@
+{
+    "request": {
+        "urlPath":"/documents",
+        "queryParameters": {
+            "nid": {
+                "equalTo": "001"
+            },
+            "typeDocument": {
+                "equalTo": "MEMOIRESPROPOSITION"
+            }
+        },
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "transformers": ["response-template"],
+        "bodyFileName": "documents_Hallyday_Johnny_MEMOIRESPROPOSITION.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

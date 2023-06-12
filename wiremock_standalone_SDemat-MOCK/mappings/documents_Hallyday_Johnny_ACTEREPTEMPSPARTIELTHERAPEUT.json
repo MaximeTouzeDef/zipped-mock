@@ -1,0 +1,22 @@
+{
+    "request": {
+        "urlPath":"/documents",
+        "queryParameters": {
+            "nid": {
+                "equalTo": "001"
+            },
+            "typeDocument": {
+                "equalTo": "ACTEREPTEMPSPARTIELTHERAPEUT"
+            }
+        },
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "transformers": ["response-template"],
+        "bodyFileName": "documents_Hallyday_Johnny_ACTEREPTEMPSPARTIELTHERAPEUT.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
