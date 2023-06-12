@@ -1,0 +1,22 @@
+{
+    "request": {
+        "urlPath":"/documents",
+        "queryParameters": {
+            "nid": {
+                "equalTo": "007"
+            },
+            "typeDocument": {
+                "equalTo": "DECOMPTEPROVDROITSPENSION"
+            }
+        },
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "transformers": ["response-template"],
+        "bodyFileName": "documents_Bond_James_DECOMPTEPROVDROITSPENSION.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
