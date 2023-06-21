@@ -1,0 +1,22 @@
+{
+    "request": {
+        "urlPath":"/documents",
+        "queryParameters": {
+            "nid": {
+                "equalTo": "_$VAR_"
+            },
+            "typeDocument": {
+                "equalTo": "_$VAR_"
+            }
+        },
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "transformers": ["response-template"],
+        "bodyFileName": "documents__$VAR_.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

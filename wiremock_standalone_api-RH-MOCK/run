@@ -1,5 +1,0 @@
-java -jar wiremock-jre8-standalone-2.35.0.jar --verbose --async-response-enabled true --local-response-templating true --enable-stub-cors --port 8000
-
-
-java -jar wiremock-jre8-standalone-2.35.0.jar --async-response-enabled true --local-response-templating true --enable-stub-cors --port 8000
-
