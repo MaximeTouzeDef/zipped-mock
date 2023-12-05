@@ -1,0 +1,19 @@
+{
+    "request": {
+        "urlPath":"/api",
+        "queryParameters": {
+            "nid": {
+                "equalTo": "003"
+            }
+        },
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "transformers": ["response-template"],
+        "bodyFileName": "api_003.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
